@@ -1,9 +1,13 @@
+<?php ?>
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
@@ -11,6 +15,7 @@
   <link rel="icon" type="image/png" href="/img/neon.jpeg" />
   <!-- Animate on Scroll CSS  -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
   <script src="https://unpkg.com/splitting@1.0.5/dist/splitting.min.js"></script>
       <!-- a helper script for vaidating the form-->
       <script src="./assets/js/gen_validatorv31.js"  type="text/javascript" ></script>
@@ -20,30 +25,30 @@
   <link rel="stylesheet" href="./assets/css/loader.css" />
   <link rel="shortcut icon" type="image/png" href="./assets/img/logo.png" />
   <link href="./assets/css/cssanimation.min.css" rel="stylesheet">
-  
-  <script type="text/javascript" src="./assets/js/letteranimation.min.js"></script>
   <title>ScanLegal 7.0</title>
 </head>
+
 <body>
   <div id="loader" class="loader">
     <div class="loaderr"><span class="whirly-loader"></span> </div>
     </div>
 <div id="root" class="hide root">
   <section class="heroS">
-    <img style="right: 0;top: 2%;width: 259.44px; height: 328px;" class="position-absolute robo" src="./assets/img/robo1.png" alt="">
+    <img style="right: 0;top: 2%;width: 259.44px;height: 312px;" class="position-absolute" src="./assets/img/robo1.png" alt="">
     <div class="container hero-container">
       <div class="d-flex flex-row pt-3 mt-2">
         <img src="./assets/img/logo.png" style="width: 90px; height: 90px; margin-left: -12px; " alt="logo" />
-        <div class="cssanimation leMovingBackFromLeft sequence h1 w-auto" style="line-height: 83px; margin-left: -13px; font-size: 2rem;"> ScanLegal</div>
+        <div class="cssanimation leMovingBackFromLeft sequence h1 w-auto" style="line-height: 83px; margin-left: -13px;"> ScanLegal</div>
+
       </div>
       <div class="row h-100c">
-        <div class="col-12 col-md-8 col-xl-6 mb-auto mt-5 mt-lg-2  ml-3 ml-md-0">
+        <div class="col mb-auto mt-5">
           <div class="mt-5">
             <h1>
               <div>Scan and Interpret</div>
               <span>legal documents from your phone!</span>
             </h1>
-            <p class="my-4 my-md-5">
+            <p class="my-5">
               We are excited to announce that we would be launching soon.
               <br />
               Sign up to be notified when its available.
@@ -53,15 +58,26 @@
             </button>
           </div>
         </div>
-        <div class="phone-hero col-12 col-md-6 mb-auto">
+        <div class="phone-hero col mb-auto">
           <div class="img-phoneH">
-            <img class="img-fluid" src="./assets/img/002.png" alt="iphone" />
+            <!-- <img class="img-fluid" src="./assets/img/gold.png" alt="iphone" /> -->
+            <div class="containarr">
+              <img class="img-fluid" src="./assets/img/gold.png" alt="iphone" />
+              <img class="img-fluid" src="./assets/img/gold.png" alt="iphone" />
+              <img class="img-fluid" src="./assets/img/gold.png" alt="iphone" />
+              <img class="img-fluid" src="./assets/img/gold.png" alt="iphone" />
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  
   <div class="bg-white">
+
+  </div>
+  <div class="bg-white"> 
   <section class="funtionality py-5 my-2">
     <div class="container">
       <h1 class="pb-3 my-3">HOW IT WORKS!</h1>
@@ -107,7 +123,7 @@
               <img class="img-fluid" src="./assets/img/sign-img.png" class="pb-2" alt="img" />
             </div>
             <h3 style="margin-top: 4.9rem;">Sign</h3>
-            <p class="text-center ">
+            <p class="text-center">
               After understanding you are free to sign the document.
             </p>
           </div>
@@ -115,7 +131,7 @@
       </div>
     </div>
   </section>
-    <section class="describe-1 position-relative mt-5" data-scrolly-top="fadeInLeft, duration:2s" data-scrolly-down="fadeInLeft, duration:2s">
+    <section class="describe-1 position-relative mt-5" data-scrolly-top="fadeInLeft" data-scrolly-down="fadeInLeft">
     <div class="container rect-1">
       <div class="row">
         <div class="col-8">
@@ -127,17 +143,21 @@
               ONBOARDING PAGE
             </h1>
           </div>
+
           <div class="w-100 position-relative">
-            <h5 class="py-5 w-75 color-org let-spac orangeT"  style="margin-right: 50%;">
+            <h5 class="py-5 w-50 color-org"  style="margin-right: 50%;">
             We explain what our app does and everything you need to understand your legal document.
           </h5></div>
+          
         </div>
         <div class="col" style="z-index: -2"></div>
       </div>
     </div>
   </section>
-<section class="describe-2 position-relative" data-scrolly-top="fadeInRight, duration:2s" data-scrolly-down="fadeInRight, duration:2s">
-    <img style="left: 0;top: -29%;width: 259.44px;height: 328px;" class="position-absolute robo2" src="./assets/img/robot2.png" alt="">
+</div>
+  <div class="bg-white">
+<section class="describe-2 position-relative" data-scrolly-top="fadeInRight" data-scrolly-down="fadeInRight">
+    <img style="left: 0;top: -29%;width: 259.44px;height: 328px;" class="position-absolute" src="./assets/img/robot2.png" alt="">
     <div class="container rect-2">
       <div class="row">
         <div class="col" style="z-index: -2"></div>
@@ -150,18 +170,20 @@
               LOGIN PAGE
             </h1>
           </div>
+
           <div class="w-100 position-relative text-left">
-            <h5 class="py-5 w-75 color-org let-spac orangeT" style="margin-left: 30%;">
+            <h5 class="py-5 w-50 color-org" style="margin-left: 50%;">
               Log In or Sign Up to store all your scanned documents and come back at your convenience.
           </h5>
           </div>
+          
         </div>
       </div>
     </div>
   </section>
   </div>
   <div class="bg-white" style="padding-bottom: 50px;">
-  <section class="describe-3 position-relative clipdown"  data-scrolly-top="fadeInLeft, duration:2s" data-scrolly-down="fadeInLeft, duration:2s">
+  <section class="describe-3 position-relative clipdown"  data-scrolly-top="fadeInLeft" data-scrolly-down="fadeInLeft">
     <div class="container rect-3">
       <div class="row">
         <div class="col-8">
@@ -170,8 +192,7 @@
               MAIN PAGES
             </h1>
           </div>
-          <div class="w-100 position-relative color-org">
-            <h5 class="py-5 w-75 let-spac orangeT r"  style="margin-right: 50%;">
+          <div class="w-100 position-relative color-org"><h5 class="py-5 w-50"  style="margin-right: 50%;">
             Easy to use and complication free. Just scan your document and we’ll take it from there!
           </h5></div>
         </div>
@@ -180,13 +201,18 @@
     </div>
   </section>
   </div>
-  <section class="phone-3 position-relative bg-white" style="padding: 9% 0 0 0;z-index: 0;">
+  
+
+  
+
+  <section class="phone-3 position-relative bg-white" style="padding: 9% 0 0 0;z-index: 0;"">
     <section class="phone-3a">
       <div class="container pb-5">
-        <div class="d-flex justify-content-center pb-5" >
+        <div class="d-flex justify-content-center pb-5">
           <div class="text-right img-3phone">
             <img src="./assets/img/screen3a.png" alt="iphone3" class="img-fluid" />
           </div>
+
           <div class="position-relative text-center img-3phone">
             <img class="position-absoljute img-fluid" style="top: -30%; visibility: hidden;"
               src="./assets/img/screen3b.png" alt="iphone3" />
@@ -200,12 +226,13 @@
         </div>
       </div>
     </section>
-    <section class="describe-2 position-relative" data-scrolly-top="fadeInRight, duration:2s" data-scrolly-down="fadeInRight, duration:2s">
+
+    <section class="describe-2 position-relative" data-scrolly-top="fadeInRight" data-scrolly-down="fadeInRight">
       <div class="container rect-2">
         <div class="row">
           <div class="col" style="z-index: -2"></div>
           <div class="col-8">
-            <div class="position-absolute div-img2 ex">
+            <div class="position-absolute div-img2">
               <img class="img-fluid" src="./assets/img/screen4.png" alt="iphone" />
             </div>
             <div class=" side-blue position-relative d-flex justify-content-end">
@@ -213,14 +240,15 @@
                 EXPLANATION
               </h1>
             </div>
+  
             <div class="rect-lefty m-auto position-relative"></div>
           </div>
         </div>
       </div>
     </section>
      <section class="phones-45d">
-    <div class="container-fluid pr-0" style="box-sizing: border-box;">
-      <div class="position-relative overflow-hidden" style="height: 100%;">
+    <div class="container-fluid" style="box-sizing: border-box;">
+      <div class="position-relative" style="height: 100%;">
         <div class="gallerys" style="visibility: hidden;">
           <figure class="gallery__item gallery__item--1hide">
             <img src="./assets/img/phone45d.png"class="gallery__img" alt="Image 1">
@@ -253,16 +281,21 @@
       </div>
       </div>
       </div>
+      
+      
+      
+
     </div>
+  </section> 
   </section>
-  </section>
-  <section class="app-store py-3 py-md-5 position-relative" style="z-index: 1;">
-    <div class="container py-md-4 py-2">
-      <h2 style="line-height: 41px; font-size: 2.58rem;" class="pb-4 text-sm-left text-center">Leave confusing<br> legal documents behind.</h2>
-      <h4 class="pb-3 text-sm-left text-center" style="font-weight: normal;font-size: 2rem;">ScanLegal is coming soon!</h4>
+
+  <section class="app-store py-5 position-relative" style="z-index: 1;">
+    <div class="container py-4">
+      <h2 style="line-height: 41px;" class="pb-4 text-sm-left text-center">Leave confusing<br> legal documents behind.</h2>
+      <h4 class="pb-3 text-sm-left text-center" style="font-weight: normal;">ScanLegal is coming soon!</h4>
       <div class="d-flex flex-row mb-3 flex-wrap justify-content-center justify-content-sm-start">
         <img src="./assets/img/a-store.png" alt="appstore" class="mb-3 pb-sm-0"/>
-        <img style="width: 190px;" src="./assets/img/g-play.png" alt="appstore" class="pl-sm-3" />
+        <img src="./assets/img/g-play.png" alt="appstore" class="pl-sm-3" />
       </div>
       <div class="d-flex flex-row mt-3 justify-content-center justify-content-sm-start">
         <img src="./assets/img/logo.png" style="width: 80px; height: 80px; margin-left: -1rem" alt="logo" />
@@ -270,7 +303,7 @@
       </div>
     </div>
   </section>
-  <section class="contact-me py-3 py-md-5" id="contact-me">
+  <section class="contact-me py-5" id="contact-me">
     <div class="container text-center">
       <h2>Want early access?</h2>
       <p class="pb-4">Subscribe and get notified</p>
@@ -301,7 +334,15 @@
         </div>
       </div>
   </section>
+  
+
+
+
+  
+
 </div>
+  <!-- Optional JavaScript -->
+
   <!-- Popper.js, then Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
@@ -313,16 +354,60 @@
   <script src="./assets/js/script.js"></script>
   <!-- Animate on Scroll JS -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="text/javascript" src="./assets/js/letteranimation.min.js"></script>
   <script>
     window.onload = function () {
       scrolly();
-    };
+    }; 
   </script>
       <script>
         var frmvalidator = new Validator("myemailform");
-            frmvalidator.addValidation("name", "req", "Please provide your name");
             frmvalidator.addValidation("email", "req", "Please provide your email");
-            frmvalidator.addValidation("email", "email", "Please enter a valid email address");
             </script>
 </body>
+
 </html>
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <link rel="stylesheet" href="./assets/css/style.css">-->
+    <!-- a helper script for vaidating the form-->
+<!--    <script src="./assets/js/gen_validatorv31.js"  type="text/javascript" ></script>-->
+
+
+<!--    <title>Document</title>-->
+<!--</head>-->
+
+<!--<body>-->
+<!--    <h1>form testing</h1>-->
+<!--    <div class="container">-->
+<!--        <form id="contact" name="myemailform" action="myemailform.php" method="post">-->
+<!--            <h3>Quick Contact</h3>-->
+<!--            <h4>Contact us today, and get reply with in 24 hours!</h4>-->
+<!--            <fieldset>-->
+<!--                <input placeholder="Your name" type="text" tabindex="1" name="name" required autofocus>-->
+<!--            </fieldset>-->
+<!--            <fieldset>-->
+<!--                <input placeholder="Your Email Address" type="email" tabindex="2" name="email" required>-->
+<!--            </fieldset>-->
+<!--            <fieldset>-->
+<!--                <textarea placeholder="Type your Message Here...." tabindex="5" name="message" required></textarea>-->
+<!--            </fieldset>-->
+<!--            <fieldset>-->
+<!--                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>-->
+<!--            </fieldset>-->
+<!--        </form>-->
+
+
+<!--    </div>-->
+<!--    <script>-->
+<!--    var frmvalidator = new Validator("myemailform");-->
+<!--        frmvalidator.addValidation("name", "req", "Please provide your name");-->
+<!--        frmvalidator.addValidation("email", "req", "Please provide your email");-->
+<!--        frmvalidator.addValidation("email", "email", "Please enter a valid email address");</script>-->
+<!--</body>-->
+
+<!--</html>-->

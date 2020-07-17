@@ -345,7 +345,10 @@
 .bodie #wrap form input[type="submit"] {
   height: var(--input-height);
   border-radius: 10px;
-  padding: 0 6rem;
+  /* padding: 0 6rem; */
+  width: 100%;
   border: none;
   opacity: 0;
+  padding: 0;
+  width: 100%;
 }
